@@ -7,4 +7,5 @@ Created on Thu Mar  1 09:59:39 2018
 """
 
 import panda as pd
-dat = pd.read_csv('data/folder/gapminder_gdp_europe.csv')
+dat = pd.read_csv('data/folder/gapminder_gdp_europe.csv', index_col = 'country')
+
